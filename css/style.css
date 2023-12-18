@@ -22,6 +22,19 @@ header {
   cursor: pointer;
 }
 
+.portfolio,
+.about,
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.about {
+  background-color: var(--main-color-bg);
+}
+
 .link-offset-2 {
   cursor: pointer;
 }
@@ -30,6 +43,27 @@ header {
   background-color: var(--main-color-bg);
 }
 
+.my-text-color {
+  color: var(--font-color);
+}
+
 .my-font-size {
-  font-size: 70px;
+  font-size: 55px;
+}
+
+.my-bg-button-color {
+  background-color: var(--main-color-bg);
+  border: none;
+}
+.my-bg-button-color:hover {
+  background-color: var(--main-color-bg);
+}
+
+.my-bg-footer-color {
+  background-color: var(--footer-color-bg);
+}
+
+.my-bg-copyright {
+  background-color: var(--font-color);
+  overflow: hidden;
 }
