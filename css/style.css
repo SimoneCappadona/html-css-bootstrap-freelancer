@@ -1,0 +1,35 @@
+:root {
+  --font-second-color: #ffffff;
+  --main-color-bg: #1abc9c;
+  --font-color: #2c3e50;
+  --footer-color-bg: #3a546d;
+}
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: var(--font-color);
+}
+
+.fw-semibold {
+  color: var(--font-second-color);
+}
+
+.fa-bars {
+  color: #888888;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.link-offset-2 {
+  cursor: pointer;
+}
+
+.my-bg-color {
+  background-color: var(--main-color-bg);
+}
+
+.my-font-size {
+  font-size: 70px;
+}
