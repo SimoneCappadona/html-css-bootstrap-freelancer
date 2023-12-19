@@ -67,3 +67,17 @@ header {
   background-color: var(--font-color);
   overflow: hidden;
 }
+
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-twitter,
+.fa-linkedin-in {
+  border-radius: 50%;
+  border: 1px solid white;
+  line-height: 15px;
+  padding: 15px;
+}
+.fa-facebook-f {
+  width: 50px;
+  line-height: 15px;
+}
