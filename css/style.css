@@ -21,6 +21,16 @@ header {
   font-size: 30px;
   cursor: pointer;
 }
+.line-star,
+.line-star-darkgrey {
+  border: 2px solid var(--font-second-color);
+  width: 200px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+.line-star-darkgrey {
+  border: 2px solid var(--font-color);
+}
 
 .portfolio,
 .about,
@@ -80,4 +90,8 @@ header {
 .fa-facebook-f {
   width: 50px;
   line-height: 15px;
+}
+
+.colored-link {
+  color: var(--main-color-bg);
 }
